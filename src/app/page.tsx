@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header/ui/Header";
+import { HeroSlider } from "@/components/HeroSlider/ui/HeroSlider";
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       <Header />
       <main>
         <section className="hero">
-          что-то
+          <HeroSlider />
         </section>
       </main>
     </div>

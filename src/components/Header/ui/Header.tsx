@@ -30,10 +30,10 @@ export const Header = () => {
                 <div className={styles.header__row}>
                     <div className={styles.header__linkbar}>
                         <div className={styles.header__links}>
-                            {contactsLinks.map(link => <Link key={link.label} href={link.href}>{link.label}</Link>)}
+                            {contactsLinks.map(link => <Link className={styles.header__navItem} key={link.label} href={link.href}>{link.label}</Link>)}
                         </div>
                         <div className={styles.header__links}>
-                            {socialsLinks.map(link => <Link key={link.label} href={link.href}>{link.label}</Link>)}
+                            {socialsLinks.map(link => <Link className={styles.header__navItem} key={link.label} href={link.href}>{link.label}</Link>)}
                         </div>
                     </div>
                     {/* Тут будет компонента кнопки */}

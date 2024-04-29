@@ -27,6 +27,7 @@ $rowHeigth: 80px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        transition: opacity .3s ease-in-out;
     }
 
     &__links {
@@ -43,8 +44,15 @@ $rowHeigth: 80px;
 
     &__navItem {
         padding: 13px 16px;
+        transition: opacity .3s ease-in-out;
     }
-
-    
+}
+//
+@media (any-hover: hover) {
+    .header {
+        &__navItem:hover {
+            opacity: 0.7;
+        }
+    }
 }
 
