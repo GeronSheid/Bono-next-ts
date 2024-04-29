@@ -1,0 +1,50 @@
+@import '/src/styles/variables';
+
+$rowHeigth: 80px;
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+
+    &__container {
+        @include container;
+        &:not(:last-child) {
+            border-bottom: solid 1px #ffffffdf;
+        }
+    }
+
+    &__row {
+        min-height: $rowHeigth;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__linkbar, &__menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__navItem {
+        padding: 13px 16px;
+    }
+
+    
+}
+

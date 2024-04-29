@@ -1,0 +1,50 @@
+@import '../styles/normalize';
+@import '../styles/reset';
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #1E1E1E;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    font-family: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+  }
+
+}
+
+.hero {
+    min-height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/assets/431170051_17890007396991328_2588710150722818343_n.png');
+}
