@@ -1,0 +1,21 @@
+@import '/src/styles/variables';
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #fff;
+    min-height: 900px;
+
+    padding-top: 312px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/assets/431170051_17890007396991328_2588710150722818343_n.png');
+
+    &__container {
+        @include container;
+    }
+}

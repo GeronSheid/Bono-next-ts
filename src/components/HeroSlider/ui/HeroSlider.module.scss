@@ -1,0 +1,29 @@
+.slider {
+    min-height: 600px;
+    margin-bottom: 100px;
+}
+
+.slide {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+.heading {
+    max-width: 1017px;
+    margin-bottom: 42px;
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    b {
+        color: #C19D6D;
+    }
+}
+
+.subHeading {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,27 @@
+.button {
+    max-width: 320px;
+    padding: 19px 44px;
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    transition: opacity .3s ease-in-out;
+
+    &:focus {
+        opacity: 60%;
+    }
+    &:active {
+        opacity: 100%;
+    }
+}
+
+@media (any-hover: hover) {
+    .button {
+        &:hover {
+            opacity: 60%;
+        }
+        
+    }
+}

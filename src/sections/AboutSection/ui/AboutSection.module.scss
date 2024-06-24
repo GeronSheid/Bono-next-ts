@@ -1,0 +1,54 @@
+@import '/src/styles/variables';
+
+.about {
+    color: #fff;
+    background-color: #111;
+    &__container {
+        @include container;
+    }
+}
+
+.contentWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 0px 100px 0px ;
+    margin: 50px 0px 100px 0px ;
+
+}
+
+.part, .part_img {
+    max-width: 440px;
+    width: 100%;
+    min-height: 600px;
+}
+
+.part_img {
+    position: relative;
+    max-width: 493px;
+    & > img {
+        position: absolute;
+        object-fit: cover;
+    }
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.infoPlate {
+    
+    &__heading {
+        margin-bottom: 12px;
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 400px;
+    }
+    &__text {
+        line-height: 1.44;
+        font-weight: 200;
+    }
+}

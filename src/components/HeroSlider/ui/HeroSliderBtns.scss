@@ -1,0 +1,32 @@
+
+
+.btn {
+    &_prev, &_next {
+        color: #fff;
+        position: absolute;
+        top: 15%;
+        z-index: 10;
+    }
+    &_prev {
+        left: 0;
+    }
+    &_next {
+        right: 0;
+    }
+}
+
+.swiper-pagination {
+    bottom: 0;
+}
+
+.swiper-pagination-bullet {
+    width: 30px !important;
+    height: 5px !important;
+    border-radius: 2px !important;
+    background-color: #fff;
+    opacity: 60%;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 100%;
+}
