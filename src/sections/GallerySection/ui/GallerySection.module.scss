@@ -1,0 +1,25 @@
+.gallery {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #181818;
+    
+    &__headingWrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 50px;
+        & > button {
+            margin-top: 10px;
+        }
+    }
+
+    &__heading {
+        
+        font-size: 48px;
+        line-height: 1;
+        font-weight: 500;
+    }
+}

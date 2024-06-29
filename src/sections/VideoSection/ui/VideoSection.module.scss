@@ -1,0 +1,14 @@
+@import '/src/styles/variables';
+
+.video {
+    width: 100%;
+    min-height: 800px;
+    padding: 150px 0;
+    background-image: url('/assets/videoAbout.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__container {
+        @include container;
+    }
+}

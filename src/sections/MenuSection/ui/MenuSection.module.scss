@@ -1,0 +1,29 @@
+@import '/src/styles/variables';
+
+.menu {
+    margin: 50px 0;
+    padding: 50px 0;
+    &__container {
+        @include container;
+        max-width: 1080px;
+    }
+
+    &__cardList {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(250px, 1fr ));
+        gap: 28px;
+    }
+
+    &__card {
+        max-width: 250px;
+        min-height: 300px;
+        padding: 18px 18px 27px 18px;
+        text-align: center;
+        color: #fff;
+        background-color: #282828;
+        border-radius: 45% 45% 10px 10px;
+        & > img {
+            margin-bottom: 18px;
+        }
+    }
+}

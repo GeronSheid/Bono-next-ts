@@ -1,7 +1,10 @@
 import { Header } from "@/components/Header/ui/Header";
 import { HeroSlider } from "@/components/HeroSlider/ui/HeroSlider";
 import AboutSection from "@/sections/AboutSection/ui/AboutSection";
+import GallerySection from "@/sections/GallerySection/ui/GallerySection";
 import HeroSection from "@/sections/HeroSection/ui/HeroSection";
+import MenuSection from "@/sections/MenuSection/ui/MenuSection";
+import VideoSection from "@/sections/VideoSection/ui/VideoSection";
 
 export default function Home() {
   return (
@@ -10,6 +13,9 @@ export default function Home() {
       <main>
         <HeroSection/>
         <AboutSection/>
+        <MenuSection/>
+        <GallerySection/>
+        <VideoSection/>
       </main>
     </div>
   );
