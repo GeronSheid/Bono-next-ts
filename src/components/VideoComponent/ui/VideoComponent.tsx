@@ -12,13 +12,17 @@ const VideoComponent = () => {
             {
                 isPlaying 
                 ?
-                    <iframe 
-                        src="https://www.youtube.com/watch?v=BBJa32lCaaY&ab_channel=LegacyPNDA" 
-                        width="1100"
-                        height="500"
-                        allow="autoplay; fullscreen; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
+                    // <iframe 
+                    //     src="https://www.youtube.com/watch?v=BBJa32lCaaY&ab_channel=LegacyPNDA" 
+                    //     width="1100"
+                    //     height="500"
+                    //     loading = 'lazy'
+                    //     allow="autoplay; fullscreen; picture-in-picture"
+                    //     allowFullScreen
+                    // ></iframe>
+                    <>
+                        <iframe src="https://giphy.com/embed/lgcUUCXgC8mEo" width="1100" height="500" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+                    </>
                 :
                     <>
                         <Image width={1100} height={500} src={background} alt='' />
